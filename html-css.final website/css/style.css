@@ -1,0 +1,198 @@
+.nav-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navbar-brand:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#consultationbtn {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+#consultationbtn:hover {
+  background-color: #0d6efd;
+  color: white !important;
+}
+
+#consultationbtn2 {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+#consultationbtn2:hover {
+  background-color: #0d6efd;
+  color: white !important;
+}
+
+#rdmorebtn {
+  border: none;
+  background-color: transparent;
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+#rdmorebtn:hover {
+  background-color:  #0d6efd !important;
+  color: white !important;
+}
+
+#card2 {
+  background-color: white;
+  width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#card2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#card1 {
+  width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#card1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.grow-hover {
+  transition: transform 0.5s ease;
+}
+
+.grow-hover:hover {
+  transform: scale(1.2);
+}
+
+.hover-container {
+  background-color: white; 
+  transition: background-color 0.4s ease;
+}
+
+.hover-container:hover {
+  background-color: #bcffbc; 
+}
+
+.inner-content {
+  transition: transform 0.4s ease;
+}
+
+.hover-container:hover .inner-content {
+  transform: translateX(40px);
+}
+
+#consultationbtn1 {
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+
+#consultationbtn1:hover {
+  background-color: #ffffff;
+  color: rgb(170, 155, 255) !important;
+}
+
+#midsection {
+  position: relative;
+  overflow: hidden;
+}
+
+#bg-image-wrapper {
+  width: 50%; 
+  z-index: 0;
+}
+
+#bg-image {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+
+#midsection > .ms-md-5 {
+  position: relative;
+  z-index: 2;
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  #consultation-blocks, #boosting-sub-blocks, #industries-block, #book-blocks, #book-blocks1, #block1, #before-footer, #footer-sub-block, #inputs, #login-sect, #our-services {
+    flex-wrap: wrap;
+  }
+
+  #card1{
+    width: 100% !important;
+  }
+
+  #services {
+    margin-left: 0 !important;
+    padding: 10px;
+  }
+
+  #block1 {
+    gap: 10px !important;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blocks {
+    margin-left: 0 !important;
+  }
+
+  #midsection {
+    margin-bottom: 100px !important;
+  }
+
+  #the-journey {
+    margin: 0 !important;
+    padding-top: 10px;
+    padding-left: 15px !important;
+  }
+
+  #footer-sub-block {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  #inputs {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  #consultationbtn2 {
+    width: 100% !important;     
+  }
+
+  form input[type="text"], form input[type="email"] {
+    width: 100% !important;
+  }
+
+  #emailInput, .company-input {
+    width: 100% !important;
+	}
+
+  #keep-rising {
+    padding-left: 0 !important;
+  }
+
+  #our-story {
+    width: 300px !important;
+  }
+
+  #staff {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .hover-container:hover .inner-content{
+    transform: none;
+  } 
+
+  #consultationbtn {
+    width: 220px !important; 
+  }
+
+  #consultationbtn1 {
+    margin-left: 95px !important;
+  }
+}
